@@ -1,0 +1,5 @@
+.idea
+*.iml
+
+# Old howtos that are not publishable.
+howto*
