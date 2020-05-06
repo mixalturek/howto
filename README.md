@@ -191,6 +191,16 @@ https://askubuntu.com/a/332847
                             .hasMessageContaining("Connection refused"));
 
 
+## Temporary directory in JUnit 5 test
+
+    @Test
+    void myTest(@TempDir Path tempDir) {
+    
+    }
+
+https://www.baeldung.com/junit-5-temporary-directory
+
+
 ## Bind a socked on a reserved port without root permissions
 
     apt-get install authbind
@@ -221,3 +231,26 @@ https://html5up.net/
 	
 	# 'H' request headers 'B' request body 'h' response headers 'b' response body
 	http --print HBhb POST ...
+
+
+### WebGoat
+
+Learn the hack - Stop the attack
+
+- https://webgoat.github.io/WebGoat/
+- https://github.com/WebGoat/WebGoat
+- https://owasp.org/www-project-webgoat/
+
+
+## Burp proxy
+
+https://portswigger.net/burp
+
+- Download burp community edition.
+- Use Firefox unless you already have burp setup some other way.
+- Run Burp, then configure Firefox to use `localhost:8080` as a proxy, for all protocols.
+- In Burp, Proxy->Intercept, Turn Intercept off, then open a HTTP link in firefox and verify you can see it in Proxy->HTTP history in Burp.
+- In Firefox, open http://burp, Download CA certificate, then configure that as a Trusted Certificate Authority in Firefox Certificate Manager, select to Trust to identify websites. Burp should now be able to intercept HTTPS requests.
+
+https://portswigger.net/support/configuring-firefox-to-work-with-burp
+https://portswigger.net/support/installing-burp-suites-ca-certificate-in-firefox
