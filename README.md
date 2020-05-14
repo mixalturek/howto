@@ -67,6 +67,23 @@ https://www.mojohaus.org/versions-maven-plugin/
     private static final Logger LOGGER = LoggerFactory.getLogger(My.class);
 
 
+## Logback, console
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <configuration scan="true" scanPeriod="30 seconds">
+        <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+            <target>System.err</target>
+            <encoder>
+                <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %highlight(%-5level) %-45logger{45} [%-20thread]: %msg \(%file:%line\)%n%xThrowable{full}</pattern>
+            </encoder>
+        </appender>
+    
+        <root level="INFO">
+            <appender-ref ref="CONSOLE"/>
+        </root>
+    </configuration>
+
+
 ## Switch to an different JDK
 
     export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
@@ -254,9 +271,21 @@ Learn the hack - Stop the attack
 - https://portswigger.net/support/configuring-firefox-to-work-with-burp
 - https://portswigger.net/support/installing-burp-suites-ca-certificate-in-firefox
 
+In short...
 
 - Download burp community edition.
 - Use Firefox unless you already have burp setup some other way.
 - Run Burp, then configure Firefox to use `localhost:8080` as a proxy, for all protocols.
 - In Burp, Proxy->Intercept, Turn Intercept off, then open a HTTP link in firefox and verify you can see it in Proxy->HTTP history in Burp.
 - In Firefox, open http://burp, Download CA certificate, then configure that as a Trusted Certificate Authority in Firefox Certificate Manager, select to Trust to identify websites. Burp should now be able to intercept HTTPS requests.
+
+
+## Rust, project specific toolchain
+
+    rustup override set nightly
+    rustup override set nightly-2014-12-18
+    rustup override set 1.0.0
+    rustup override unset
+    rustup show
+
+https://rocket.rs/v0.4/guide/getting-started/#installing-rust
