@@ -289,3 +289,10 @@ In short...
     rustup show
 
 https://rocket.rs/v0.4/guide/getting-started/#installing-rust
+
+
+## OSX, language in login screen
+
+    sudo languagesetup
+
+https://support.apple.com/en-us/HT202036
