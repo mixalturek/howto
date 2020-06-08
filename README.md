@@ -296,3 +296,9 @@ https://rocket.rs/v0.4/guide/getting-started/#installing-rust
     sudo languagesetup
 
 https://support.apple.com/en-us/HT202036
+
+
+## OSX, screenshot
+
+- Fullscreen: Command + Shift + 3
+- Selection: Command + Shift + 4
