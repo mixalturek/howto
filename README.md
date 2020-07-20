@@ -146,6 +146,16 @@ https://www.baeldung.com/junit-5-temporary-directory
                 .hasMessageContaining("...");
 
 
+## Jetbrains exposed, log SQL queries
+
+    transaction {
+        addLogger(StdOutSqlLogger)
+        // Do stuff
+    }
+    
+https://www.baeldung.com/kotlin-exposed-persistence#2-logging-statements
+
+
 ## The perfect Front-End Checklist
 
 - https://frontendchecklist.io/
@@ -247,6 +257,14 @@ https://askubuntu.com/a/332847
 - HTTPS certificate signed by a trusted authority.
 
 https://ngrok.com/
+
+
+## RequestBin
+
+- Public service to inspect incoming HTTP requests.
+- https://github.com/Runscope/requestbin
+- https://requestbin.io/
+- http://requestbin.net/
 
 
 ## mocky
