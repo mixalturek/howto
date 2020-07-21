@@ -309,6 +309,11 @@ In short...
 https://rocket.rs/v0.4/guide/getting-started/#installing-rust
 
 
+## Docker, interactively show resources and limits
+
+    docker stats
+
+
 ## OSX, language in login screen
 
     sudo languagesetup
