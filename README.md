@@ -156,6 +156,11 @@ https://www.baeldung.com/junit-5-temporary-directory
 https://www.baeldung.com/kotlin-exposed-persistence#2-logging-statements
 
 
+## Spring, activate a profile 
+
+    --spring.profiles.active=local
+
+
 ## The perfect Front-End Checklist
 
 - https://frontendchecklist.io/
@@ -325,3 +330,20 @@ https://support.apple.com/en-us/HT202036
 
 - Fullscreen: Command + Shift + 3
 - Selection: Command + Shift + 4
+
+
+## Kafka, test leader re-balances
+
+http://kafka.apache.org/documentation/#quickstart_multibroker
+
+    bin/zookeeper-server-start.sh config/zookeeper.properties
+    bin/kafka-server-start.sh config/server-1.properties
+    bin/kafka-server-start.sh config/server-2.properties
+    bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 2 --partitions 2 --topic my-replicated-topic
+    
+    bin/kafka-topics.sh --describe --bootstrap-server localhost:9092 --topic my-replicated-topic
+    bin/kafka-leader-election.sh --bootstrap-server localhost:9092 --election-type=preferred --all-topic-partitions
+    
+    # Stop and start one of the Kafka brokers and trigger elections.
+    
+
