@@ -332,6 +332,14 @@ https://support.apple.com/en-us/HT202036
 - Selection: Command + Shift + 4
 
 
+## OSX, fix xcode command line tools
+
+    sudo rm -rf /Library/Developer/CommandLineTools
+    xcode-select --install
+
+https://stackoverflow.com/questions/34617452/how-to-update-xcode-from-command-line
+
+
 ## Kafka, test leader re-balances
 
 http://kafka.apache.org/documentation/#quickstart_multibroker
