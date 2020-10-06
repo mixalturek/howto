@@ -338,6 +338,7 @@ https://support.apple.com/en-us/HT202036
     xcode-select --install
 
 https://stackoverflow.com/questions/34617452/how-to-update-xcode-from-command-line
+https://stackoverflow.com/questions/19907576/xcode-is-not-currently-available-from-the-software-update-server
 
 
 ## Kafka, test leader re-balances
