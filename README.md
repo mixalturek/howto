@@ -341,6 +341,12 @@ https://stackoverflow.com/questions/34617452/how-to-update-xcode-from-command-li
 https://stackoverflow.com/questions/19907576/xcode-is-not-currently-available-from-the-software-update-server
 
 
+## OSX, prevent the system from sleeping
+
+    caffeinate
+    caffeinate -t 3600
+
+
 ## Kafka, test leader re-balances
 
 http://kafka.apache.org/documentation/#quickstart_multibroker
