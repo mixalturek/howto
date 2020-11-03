@@ -365,3 +365,8 @@ http://kafka.apache.org/documentation/#quickstart_multibroker
 ## Webpage speed test
 
 https://webpagetest.org/
+
+
+## SaaS pricing
+
+https://www.lennyrachitsky.com/p/saas-pricing-strategy
