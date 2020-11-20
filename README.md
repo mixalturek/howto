@@ -370,3 +370,8 @@ https://webpagetest.org/
 ## SaaS pricing
 
 https://www.lennyrachitsky.com/p/saas-pricing-strategy
+
+
+## Emailing for SaaS startups
+
+https://sidemail.io/
