@@ -161,6 +161,24 @@ https://www.baeldung.com/kotlin-exposed-persistence#2-logging-statements
     --spring.profiles.active=local
 
 
+## Gradle, check latest dependencies
+
+    ./gradlew dependencyUpdates
+
+https://github.com/ben-manes/gradle-versions-plugin
+
+
+## Gradle, update wrapper
+
+    ./gradlew wrapper --gradle-version=5.3
+
+
+## Gradle, list dependencies
+
+    ./gradlew -q dependencies > deps.txt
+    ./gradlew -q dependencies api:dependencies server:dependencies > deps.txt
+
+
 ## The perfect Front-End Checklist
 
 - https://frontendchecklist.io/
