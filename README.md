@@ -179,6 +179,11 @@ https://github.com/ben-manes/gradle-versions-plugin
     ./gradlew -q dependencies api:dependencies server:dependencies > deps.txt
 
 
+## Gradle, refresh dependencies, skip cache
+
+    ./gradlew clean build --refresh-dependencies
+
+
 ## The perfect Front-End Checklist
 
 - https://frontendchecklist.io/
