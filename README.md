@@ -100,6 +100,12 @@ https://www.mojohaus.org/versions-maven-plugin/
     // @formatter:on
 
 
+## IntelliJ IDEA, disable rendering of doc comments
+
+    Settings > Editor > Reader mode
+    |x| Rendered documentation comments
+
+
 ## Reactor debug mode
 
     Hooks.onOperatorDebug();
