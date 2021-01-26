@@ -202,6 +202,14 @@ https://github.com/ben-manes/gradle-versions-plugin
     img[alt=""], img:not([alt]) { border: 5px dashed #c00; }
 
 
+## Yarn, update dependencies
+
+    yarn upgrade
+    yarn upgrade-interactive --latest
+
+https://eriksamuelsson.com/upgrade-all-dependency-versions-in-package-json-with-yarn/
+
+
 ## HTML5 site templates 
 
 https://html5up.net/
