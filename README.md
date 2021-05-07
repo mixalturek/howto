@@ -14,7 +14,7 @@ Various mini howto-s and code snippets based on daily work.
     http post http://localhost:10000/__admin/recordings/stop
 
 
-http://localhost:8080/__admin/recorder/
+http://localhost:10000/__admin/recorder/
 
 
 ## Tcpdump, pcap
@@ -382,6 +382,11 @@ https://stackoverflow.com/questions/19907576/xcode-is-not-currently-available-fr
 
     caffeinate
     caffeinate -t 3600
+
+## OSX, unmount disk
+
+    umount /dev/disk2s1
+    diskutil unmount /dev/disk2s1
 
 
 ## Kafka, test leader re-balances
