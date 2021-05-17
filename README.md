@@ -417,3 +417,8 @@ https://www.lennyrachitsky.com/p/saas-pricing-strategy
 ## Emailing for SaaS startups
 
 https://sidemail.io/
+
+
+## Bypass Chrome warning about expired certificates
+
+Type `thisisunsafe` in the page.
