@@ -419,6 +419,11 @@ https://www.lennyrachitsky.com/p/saas-pricing-strategy
 https://sidemail.io/
 
 
+## Icons
+
+https://icon-icons.com/
+
+
 ## Bypass Chrome warning about expired certificates
 
 Type `thisisunsafe` in the page.
