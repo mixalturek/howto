@@ -409,6 +409,11 @@ http://kafka.apache.org/documentation/#quickstart_multibroker
 https://webpagetest.org/
 
 
+## Generate HTTP load and plot the results in real-time
+
+https://github.com/nakabonne/ali
+
+
 ## SaaS pricing
 
 https://www.lennyrachitsky.com/p/saas-pricing-strategy
