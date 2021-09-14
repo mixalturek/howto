@@ -190,6 +190,11 @@ https://github.com/ben-manes/gradle-versions-plugin
     ./gradlew clean build --refresh-dependencies
 
 
+## Gradle, rerun tasks
+
+./gradlew build --rerun-tasks
+
+
 ## The perfect Front-End Checklist
 
 - https://frontendchecklist.io/
