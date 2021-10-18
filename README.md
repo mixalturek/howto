@@ -13,6 +13,8 @@ Various mini howto-s and code snippets based on daily work.
     
     http post http://localhost:10000/__admin/recordings/stop
 
+    wiremock --port 10000 --proxy-all https://michal-experimental.atlassian.net/
+
 
 http://localhost:10000/__admin/recorder/
 
