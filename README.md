@@ -18,6 +18,10 @@ Various mini howto-s and code snippets based on daily work.
 
 http://localhost:10000/__admin/recorder/
 
+## Verify a process is listening on a port
+
+    nc -vz localhost 9092
+
 
 ## Tcpdump, pcap
 
