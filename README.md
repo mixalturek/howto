@@ -443,3 +443,10 @@ https://icon-icons.com/
 ## Bypass Chrome warning about expired certificates
 
 Type `thisisunsafe` in the page.
+
+
+## Resize all images
+
+    sips -Z 1280 *.jpg
+
+https://stackoverflow.com/questions/28489793/how-to-resize-images-using-terminal-on-mac-osx
