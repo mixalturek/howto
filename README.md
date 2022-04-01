@@ -327,7 +327,12 @@ Mock REST server
 https://www.mocky.io/
 
 
-### WebGoat
+## ps, list full command line
+
+    ps auxfww
+
+
+## WebGoat
 
 Learn the hack - Stop the attack
 
