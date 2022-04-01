@@ -367,6 +367,12 @@ https://rocket.rs/v0.4/guide/getting-started/#installing-rust
     docker stats
 
 
+## Docker, consumed disk space
+
+    docker system df
+    docker system df -v
+
+
 ## OSX, language in login screen
 
     sudo languagesetup
