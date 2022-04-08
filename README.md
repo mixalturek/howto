@@ -36,6 +36,12 @@ http://localhost:10000/__admin/recorder/
     tcpdump host bbb.scdemo.successfactors.com
 
 
+## Info about a DNS record
+
+    dig ...
+    whois ...
+
+
 ## OSX, shortcuts
 
 - Show hidden files in open dialog
