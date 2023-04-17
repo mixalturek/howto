@@ -18,6 +18,7 @@ Various mini howto-s and code snippets based on daily work.
 
 http://localhost:10000/__admin/recorder/
 
+
 ## Verify a process is listening on a port
 
     nc -vz localhost 9092
@@ -467,3 +468,36 @@ Type `thisisunsafe` in the page.
     sips -Z 1280 *.jpg
 
 https://stackoverflow.com/questions/28489793/how-to-resize-images-using-terminal-on-mac-osx
+
+
+# Ruby version manager
+
+    brew install rbenv ruby-build
+    rbenv install --list
+    rbenv install --list-all
+    rbenv install 3.2.0
+    rbenv global 3.2.0
+    rbenv init
+    eval "$(rbenv init - bash)"
+    gem install rails
+    # gem env home
+    bundle install
+    rails g seed_migration add_more_teamspaces_premium_flag
+
+https://superuser.com/a/340492
+
+
+# HP m28w printer
+
+- Connect the printer via USB
+- HP smart
+- Printer settings
+- Advanced settings
+- Networking
+- Wireless configuration
+  - refresh the list of networks
+  - manually enter SSID
+  - enable wpa2
+  - just try to change something and save
+  - or temporarily disable Smart connect in Wi-Fi router
+  - ???
