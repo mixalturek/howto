@@ -228,6 +228,13 @@ https://github.com/ben-manes/gradle-versions-plugin
 https://eriksamuelsson.com/upgrade-all-dependency-versions-in-package-json-with-yarn/
 
 
+## Yarn, switch among node versions
+
+    nvm use system
+    nvm use
+    yarn
+
+
 ## HTML5 site templates 
 
 https://html5up.net/
