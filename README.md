@@ -508,3 +508,10 @@ https://superuser.com/a/340492
   - just try to change something and save
   - or temporarily disable Smart connect in Wi-Fi router
   - ???
+
+
+# Debugging jest tests in a browser
+
+    screen.logTestingPlaygroundURL()
+
+https://twitter.com/housecor/status/1770071018939281534?s=46&t=0Q_w6C2Ucqr5O9vgvqFnAg
