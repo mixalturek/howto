@@ -520,3 +520,8 @@ https://twitter.com/housecor/status/1770071018939281534?s=46&t=0Q_w6C2Ucqr5O9vgv
 # Postgres, collect input values into an array
 
     ARRAY_AGG(id)
+
+
+# Postgres, list all schemas in DB
+
+    select schema_name from information_schema.schemata order by schema_name;
