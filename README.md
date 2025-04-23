@@ -180,6 +180,26 @@ https://www.baeldung.com/kotlin-exposed-persistence#2-logging-statements
     --spring.profiles.active=local
 
 
+## Spring, generate OpenAPI spec
+
+```kotlin
+    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.5")
+```
+
+```kotlin
+@Test
+fun `should generate OpenAPI spec`() {
+    val spec = mvc.perform(MockMvcRequestBuilders.get("/v3/api-docs.yaml"))
+        .andExpect(status().isOk)
+        .andReturn().response.contentAsString
+
+    Files.writeString(Paths.get("/Users/.../openapi_generated.yaml"), spec)
+}
+```
+
+https://www.baeldung.com/spring-rest-openapi-documentation
+
+
 ## Gradle, check latest dependencies
 
     ./gradlew dependencyUpdates
