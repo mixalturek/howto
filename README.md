@@ -550,3 +550,8 @@ https://twitter.com/housecor/status/1770071018939281534?s=46&t=0Q_w6C2Ucqr5O9vgv
 # Unsure calculator
 
 https://filiph.github.io/unsure/
+
+
+# Software engineering laws
+
+https://newsletter.manager.dev/p/the-13-software-engineering-laws
